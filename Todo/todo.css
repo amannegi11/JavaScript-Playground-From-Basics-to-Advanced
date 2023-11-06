@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: green;
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+input{
+    width: 80%;
+    height: 5%;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.todos{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 80%;
+    height: 70%;
+    background-color: blanchedalmond;
+
+}

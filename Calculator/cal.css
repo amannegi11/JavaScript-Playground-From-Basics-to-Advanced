@@ -1,0 +1,47 @@
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.calculator{
+    background-color: royalblue;
+    width: 50%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+}
+input{
+    width: 80%;
+    margin-top: 5px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: green;
+    text-align:right;
+    font-size: x-large;
+    padding-right: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+li{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:large;
+    font-weight: 800;
+}
